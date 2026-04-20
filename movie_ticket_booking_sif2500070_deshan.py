@@ -9,6 +9,7 @@ Original file is located at
 
 print ("Movie Ticket Booking system")
 name= input("Enter your name")
+mobile=input("Enter your mobile number:")
 ticket= input("Enter ticket type (Regular/vip):")
 quantity= int(input("Enter number of ticket"))
 
@@ -29,6 +30,7 @@ final=total-discount
 
 print("Bill")
 print("Name:",name)
+print("Mobile:",mobile)
 print("Total:",total)
 print("Discount:",discount)
 print("Final Amount:",final )
